@@ -5,7 +5,6 @@ import ru.skypro.project.marketplace.dto.AdsCommentDto;
 import ru.skypro.project.marketplace.model.Comment;
 
 import java.util.List;
-
 public interface CommentService {
 
     AdsCommentDto addAdsComment(Integer id, AdsCommentDto adsCommentDto,

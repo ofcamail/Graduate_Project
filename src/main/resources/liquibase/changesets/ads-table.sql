@@ -1,6 +1,7 @@
 -- liquibase formatted sql
 
 -- changeset ofcmail:5
+
 CREATE TABLE IF NOT EXISTS ads(
     id              SERIAL PRIMARY KEY,
     title           VARCHAR (100) NOT NULL,

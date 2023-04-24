@@ -9,6 +9,7 @@ import ru.skypro.project.marketplace.model.User;
 import java.util.Collection;
 import java.util.List;
 
+
 @RequiredArgsConstructor
 public class CustomUserDetails implements UserDetails {
 

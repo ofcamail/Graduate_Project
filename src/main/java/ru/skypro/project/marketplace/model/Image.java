@@ -11,7 +11,6 @@ import javax.persistence.*;
 @NoArgsConstructor
 @Table
 public class Image {
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;

@@ -25,6 +25,7 @@ import java.io.IOException;
 @Tag(name = "Пользователи")
 public class UserController {
 
+
     private final UserServiceImpl userService;
     private final AvatarServiceImpl avatarService;
 

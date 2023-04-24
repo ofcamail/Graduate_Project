@@ -12,6 +12,7 @@ import ru.skypro.project.marketplace.model.Avatar;
 @Mapper(componentModel = "spring")
 public interface AdsCommentMapper {
 
+
     String USER_AVATAR = "/users/avatar/";
     AdsCommentMapper INSTANSE = Mappers.getMapper(AdsCommentMapper.class);
 

@@ -3,6 +3,7 @@ package ru.skypro.project.marketplace.dto;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;
 
+
 @Data
 public class AdsDto {
 

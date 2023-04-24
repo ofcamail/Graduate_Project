@@ -11,7 +11,6 @@ import ru.skypro.project.marketplace.repository.AvatarRepository;
 import ru.skypro.project.marketplace.service.ImageService;
 
 import java.io.IOException;
-
 @Slf4j
 @Service
 @Transactional

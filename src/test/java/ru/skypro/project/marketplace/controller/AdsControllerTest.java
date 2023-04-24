@@ -59,6 +59,7 @@ public class AdsControllerTest {
 
 
     @BeforeEach
+
     void setUp() {
         user.setUsername("test@mail.ru");
         user.setFirstName("Test");

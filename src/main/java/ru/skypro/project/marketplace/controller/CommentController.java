@@ -21,6 +21,7 @@ import ru.skypro.project.marketplace.service.CommentService;
 @Tag(name = "Комментарии")
 public class CommentController {
 
+
     private final CommentService commentService;
 
     @Operation(summary = "Получить комментарии объявления", tags = "Комментарии")

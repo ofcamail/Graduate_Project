@@ -3,7 +3,6 @@ package ru.skypro.project.marketplace.service;
 import org.springframework.web.multipart.MultipartFile;
 
 import java.io.IOException;
-
 public interface ImageService<T> {
 
     void remove(T object);

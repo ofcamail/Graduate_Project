@@ -24,7 +24,6 @@ import java.io.IOException;
 @Transactional
 @RequiredArgsConstructor
 public class UserServiceImpl implements UserService {
-
     private final UserRepository userRepository;
     private final PasswordEncoder passwordEncoder;
     private final AvatarServiceImpl avatarService;

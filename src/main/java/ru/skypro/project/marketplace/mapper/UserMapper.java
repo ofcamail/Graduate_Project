@@ -12,6 +12,7 @@ import ru.skypro.project.marketplace.model.User;
 @Mapper(componentModel = "spring")
 public interface UserMapper {
 
+
     String USER_AVATAR = "/users/avatar/";
     UserMapper INSTANCE = Mappers.getMapper(UserMapper.class);
 

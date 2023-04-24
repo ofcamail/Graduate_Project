@@ -23,7 +23,6 @@ import java.util.stream.Collectors;
 @Transactional
 @RequiredArgsConstructor
 public class CommentServiceImpl implements CommentService {
-
     private final CommentRepository commentRepository;
     private final UserServiceImpl userService;
     private final AdsServiceImpl adsService;

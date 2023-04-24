@@ -14,7 +14,6 @@ import ru.skypro.project.marketplace.model.User;
 import ru.skypro.project.marketplace.repository.UserRepository;
 
 import java.util.Optional;
-
 @Service
 @RequiredArgsConstructor
 public class CustomUserDetailsService implements UserDetailsService {

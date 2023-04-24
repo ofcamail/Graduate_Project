@@ -17,7 +17,6 @@ import java.io.IOException;
 @Transactional
 @RequiredArgsConstructor
 public class ImageServiceImpl implements ImageService<Image> {
-
     private final ImageRepository imageRepository;
 
 
