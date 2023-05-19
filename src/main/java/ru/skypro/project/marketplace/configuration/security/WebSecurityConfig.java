@@ -12,6 +12,7 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.SecurityFilterChain;
 
 
+
 @Configuration
 @EnableGlobalMethodSecurity(prePostEnabled = true)
 public class WebSecurityConfig extends GlobalMethodSecurityConfiguration {
@@ -26,7 +27,8 @@ public class WebSecurityConfig extends GlobalMethodSecurityConfiguration {
             "/ads",
             "/ads/*",
             "/ads/image/**",
-            "/ads/*/comments"
+            "/ads/*/comments",
+            "/users/avatar/**"
     };
 
 

@@ -9,6 +9,7 @@ import ru.skypro.project.marketplace.exception.BadCredentialsException;
 @ControllerAdvice
 public class BadCridentialsControllerAdvice {
 
+
     @ExceptionHandler(BadCredentialsException.class)
     public ResponseEntity<?> badCredentials() {
         return ResponseEntity.status(HttpStatus.FORBIDDEN).build();

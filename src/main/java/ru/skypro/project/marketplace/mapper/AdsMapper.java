@@ -14,6 +14,7 @@ import ru.skypro.project.marketplace.model.Image;
 @Mapper(componentModel = "spring")
 public interface AdsMapper {
 
+
     String ADS_IMAGE = "/ads/image/";
     AdsMapper INSTANCE = Mappers.getMapper(AdsMapper.class);
 

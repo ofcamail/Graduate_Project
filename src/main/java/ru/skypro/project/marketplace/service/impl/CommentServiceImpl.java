@@ -23,7 +23,6 @@ import java.util.stream.Collectors;
 @Transactional
 @RequiredArgsConstructor
 public class CommentServiceImpl implements CommentService {
-
     private final CommentRepository commentRepository;
     private final UserServiceImpl userService;
     private final AdsServiceImpl adsService;
@@ -40,11 +39,10 @@ public class CommentServiceImpl implements CommentService {
     @Override
     public AdsCommentDto addAdsComment(Integer id, AdsCommentDto adsCommentDto, Authentication authentication) {
         log.debug("Adding comment for ads with id: {}", id);
-
         if(adsCommentDto.getText() == null || adsCommentDto.getText().isBlank()) throw new IncorrectArgumentException();
 
         Comment comment = AdsCommentMapper.INSTANSE.toEntity(adsCommentDto);
-        User user = userService.getUserByUsername(authentication.getName());
+        User user = (User) authentication.getPrincipal();
         comment.setAuthor(user);
         comment.setAds(adsService.findAdsById(id));
         comment.setCreatedAt(Instant.now());

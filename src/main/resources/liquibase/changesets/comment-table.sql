@@ -1,6 +1,7 @@
 -- liquibase formatted sql
 
 -- changeset ofcmail:6
+
 CREATE TABLE IF NOT EXISTS comment(
     id              SERIAL PRIMARY KEY,
     created_at      TIMESTAMP NOT NULL,

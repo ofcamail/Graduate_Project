@@ -48,7 +48,6 @@ public class AdsServiceImpl implements AdsService {
         if (createAds.getTitle().isBlank() || createAds.getDescription().isBlank() || createAds.getPrice() == null) {
             throw new IncorrectArgumentException();
         }
-
         Ads ads = new Ads();
         ads.setTitle(createAds.getTitle());
         ads.setDescription(createAds.getDescription());

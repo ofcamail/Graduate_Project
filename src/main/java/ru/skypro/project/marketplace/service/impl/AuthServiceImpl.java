@@ -21,7 +21,6 @@ public class AuthServiceImpl implements AuthService {
     private final CustomUserDetailsService manager;
     private final PasswordEncoder encoder;
 
-
     @Override
     public boolean login(String userName, String password) {
         log.debug("Logging in user: {}", userName);

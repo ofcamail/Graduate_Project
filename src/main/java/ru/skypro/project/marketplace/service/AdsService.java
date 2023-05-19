@@ -8,7 +8,6 @@ import ru.skypro.project.marketplace.dto.FullAds;
 
 import java.io.IOException;
 import java.util.List;
-
 public interface AdsService {
 
     List<AdsDto> getAllAds();

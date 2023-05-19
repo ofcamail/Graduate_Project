@@ -14,7 +14,6 @@ import ru.skypro.project.marketplace.dto.LoginReq;
 import ru.skypro.project.marketplace.dto.RegisterReq;
 import ru.skypro.project.marketplace.service.AuthService;
 
-
 @CrossOrigin(value = "http://localhost:3000")
 @RestController
 @RequiredArgsConstructor

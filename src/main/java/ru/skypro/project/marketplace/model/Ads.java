@@ -14,6 +14,7 @@ import java.util.List;
 @Table
 public class Ads {
 
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;

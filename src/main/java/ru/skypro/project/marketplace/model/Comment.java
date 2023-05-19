@@ -13,7 +13,6 @@ import java.time.Instant;
 @NoArgsConstructor
 @Table
 public class Comment {
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;

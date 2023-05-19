@@ -12,6 +12,7 @@ import ru.skypro.project.marketplace.exception.UsernameNotFoundException;
 @ControllerAdvice
 public class NotFoundControllerAdvice {
 
+
     @ExceptionHandler(UsernameNotFoundException.class)
     public ResponseEntity<?> notFoundUsername(){
         return ResponseEntity.status(HttpStatus.NOT_FOUND).build();

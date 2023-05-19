@@ -62,6 +62,7 @@ public class AuthControllerTest {
         registerReq.setRole(Role.ADMIN);
     }
 
+
     @AfterEach
     void clearAll() {
         userRepository.delete(user);

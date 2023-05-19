@@ -3,6 +3,7 @@ package ru.skypro.project.marketplace.dto;
 import lombok.Data;
 import ru.skypro.project.marketplace.enums.Role;
 
+
 @Data
 public class RegisterReq {
 
